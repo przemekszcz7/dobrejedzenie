@@ -14,11 +14,11 @@
     <!-- Inline SVG Favicon (Crossed fork and knife in medallion) -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23E0D8CB' stroke='%23161412' stroke-width='4'/%3E%3Cg transform='translate(50,50) rotate(45) translate(-50,-50)'%3E%3Cpath d='M47,20 C47,20 54,23 54,34 C54,42 49,46 47,48 L47,78 C47,80 45,82 43,82 C41,82 39,80 39,78 L39,20 Z' fill='%23161412'/%3E%3C/g%3E%3Cg transform='translate(50,50) rotate(-45) translate(-50,-50)'%3E%3Cpath d='M44,20 L44,34 C44,38 47,41 50,42 L50,78 C50,80 52,82 54,82 C56,82 58,80 58,78 L58,42 C61,41 64,38 64,34 L64,20 L61,20 L61,31 C61,32 60,33 59,33 C58,33 57,32 57,31 L57,20 L55,20 L55,31 C55,32 54,33 53,33 C52,33 51,32 51,31 L51,20 Z' fill='%23161412'/%3E%3C/g%3E%3C/svg%3E" />
 
-    <!-- Resource hints for faster loading -->
+    <!-- Resource hints for instant loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://i.ibb.co" crossorigin />
-    <link rel="preload" as="image" href="https://i.ibb.co/DHp2hS1j/473157287-523331897388952-624220971141589435-n.jpg" fetchpriority="high" />
+    <link rel="preload" as="image" href="/images/hero.jpg" fetchpriority="high" />
+    <link rel="preload" as="image" href="/images/menu-1.jpg" fetchpriority="high" />
 
     <!-- Google Fonts: Fraunces & Jost -->
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -374,7 +374,7 @@
       .hero-bg {
         position: absolute;
         inset: 0;
-        background-image: url('https://i.ibb.co/DHp2hS1j/473157287-523331897388952-624220971141589435-n.jpg');
+        background-image: url('/images/hero.jpg');
         background-size: cover;
         background-position: center center;
         filter: brightness(0.68);
@@ -1650,13 +1650,12 @@
           <article class="dish-card reveal">
             <div class="dish-media">
               <img
-                src="https://i.ibb.co/WvzfCn1C/659065759-868718386183633-6461151311212563174-n.jpg"
+                src="/images/danie-kwasnica.jpg"
                 alt="Kwaśnica na wędzonych żeberkach w restauracji Dobre Jedzenie"
                 class="dish-img"
-                loading="lazy"
+                loading="eager"
                 decoding="async"
-                referrerpolicy="no-referrer"
-                onerror="this.src='https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80'"
+                onerror="this.src='https://i.ibb.co/WvzfCn1C/659065759-868718386183633-6461151311212563174-n.jpg'"
               />
             </div>
             <div class="dish-content">
@@ -1669,13 +1668,12 @@
           <article class="dish-card reveal">
             <div class="dish-media">
               <img
-                src="https://i.ibb.co/ds9wZmvQ/659080075-868718399516965-7594796141311588196-n.jpg"
+                src="/images/danie-bitki.jpg"
                 alt="Bitki wieprzowe z ziemniaczkami i surówkami"
                 class="dish-img"
-                loading="lazy"
+                loading="eager"
                 decoding="async"
-                referrerpolicy="no-referrer"
-                onerror="this.src='https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80'"
+                onerror="this.src='https://i.ibb.co/ds9wZmvQ/659080075-868718399516965-7594796141311588196-n.jpg'"
               />
             </div>
             <div class="dish-content">
@@ -1688,13 +1686,12 @@
           <article class="dish-card reveal">
             <div class="dish-media">
               <img
-                src="https://i.ibb.co/rfF5sc0t/658842433-867100089678796-5491994947417605975-n.jpg"
+                src="/images/danie-zurek.jpg"
                 alt="Żurek tradycyjny z tłuczonymi ziemniaczkami i jajkiem"
                 class="dish-img"
-                loading="lazy"
+                loading="eager"
                 decoding="async"
-                referrerpolicy="no-referrer"
-                onerror="this.src='https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80'"
+                onerror="this.src='https://i.ibb.co/rfF5sc0t/658842433-867100089678796-5491994947417605975-n.jpg'"
               />
             </div>
             <div class="dish-content">
@@ -1707,13 +1704,12 @@
           <article class="dish-card reveal">
             <div class="dish-media">
               <img
-                src="https://i.ibb.co/t6D8m7m/660085978-867100096345462-8028823111718255808-n.jpg"
+                src="/images/danie-piers.jpg"
                 alt="Pierś panierowana z ziemniaczkami i surówkami"
                 class="dish-img"
-                loading="lazy"
+                loading="eager"
                 decoding="async"
-                referrerpolicy="no-referrer"
-                onerror="this.src='https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=800&q=80'"
+                onerror="this.src='https://i.ibb.co/t6D8m7m/660085978-867100096345462-8028823111718255808-n.jpg'"
               />
             </div>
             <div class="dish-content">
@@ -1726,13 +1722,12 @@
           <article class="dish-card reveal">
             <div class="dish-media">
               <img
-                src="https://i.ibb.co/39RRQ6hs/595610788-776915575363915-710343931260259468-n.jpg"
+                src="/images/danie-burger.jpg"
                 alt="Burger w lokalu Dobre Jedzenie"
                 class="dish-img"
-                loading="lazy"
+                loading="eager"
                 decoding="async"
-                referrerpolicy="no-referrer"
-                onerror="this.src='https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80'"
+                onerror="this.src='https://i.ibb.co/39RRQ6hs/595610788-776915575363915-710343931260259468-n.jpg'"
               />
             </div>
             <div class="dish-content">
@@ -1745,13 +1740,12 @@
           <article class="dish-card reveal">
             <div class="dish-media">
               <img
-                src="https://i.ibb.co/DPYhXMpZ/595118395-776915708697235-405510792043704377-n.jpg"
+                src="/images/danie-zeberka.jpg"
                 alt="Pieczone żeberka w marynacie"
                 class="dish-img"
-                loading="lazy"
+                loading="eager"
                 decoding="async"
-                referrerpolicy="no-referrer"
-                onerror="this.src='https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80'"
+                onerror="this.src='https://i.ibb.co/DPYhXMpZ/595118395-776915708697235-405510792043704377-n.jpg'"
               />
             </div>
             <div class="dish-content">
@@ -1783,11 +1777,11 @@
                 <img
                   id="bookCurrentImg"
                   class="book-page-img"
-                  src="https://i.ibb.co/TDC4G7n7/540412570-696076330114507-2686806115276270537-n.jpg"
+                  src="/images/menu-1.jpg"
                   alt="Karta menu Dobre Jedzenie - strona 1"
-                  loading="lazy"
+                  loading="eager"
                   decoding="async"
-                  referrerpolicy="no-referrer"
+                  onerror="this.src='https://i.ibb.co/TDC4G7n7/540412570-696076330114507-2686806115276270537-n.jpg'"
                 />
               </div>
 
@@ -1874,9 +1868,10 @@
           <img
             id="zoomTargetImg"
             class="zoom-target-img"
-            src="https://i.ibb.co/TDC4G7n7/540412570-696076330114507-2686806115276270537-n.jpg"
+            src="/images/menu-1.jpg"
             alt="Powiększona strona karty menu"
-            referrerpolicy="no-referrer"
+            decoding="async"
+            onerror="this.src='https://i.ibb.co/TDC4G7n7/540412570-696076330114507-2686806115276270537-n.jpg'"
           />
         </div>
 
@@ -2173,13 +2168,13 @@
     <!-- INTERAKCJE I SKRYPTY W JAVASCRIPT -->
     <script>
       (function() {
-        // 1. Zestaw 5 stron menu z promptu
+        // 1. Zestaw 5 stron menu - lokalne zoptymalizowane obrazy z błyskawicznym wczytywaniem
         const menuPages = [
-          'https://i.ibb.co/TDC4G7n7/540412570-696076330114507-2686806115276270537-n.jpg',
-          'https://i.ibb.co/qLD5pXwY/539866900-696076350114505-2998044087354837295-n.jpg',
-          'https://i.ibb.co/jKd1DCN/540755176-696076443447829-2647111515777076604-n.jpg',
-          'https://i.ibb.co/S4DHnjVX/539755081-696076450114495-3112029155897080573-n.jpg',
-          'https://i.ibb.co/gbWX0Ffg/539748097-696076476781159-6292451003107415563-n.jpg'
+          '/images/menu-1.jpg',
+          '/images/menu-2.jpg',
+          '/images/menu-3.jpg',
+          '/images/menu-4.jpg',
+          '/images/menu-5.jpg'
         ];
 
         let currentPageIndex = 0;
@@ -2196,9 +2191,21 @@
         const menuCounterLabel = document.getElementById('menuCounterLabel');
         const menuDots = document.querySelectorAll('.menu-dot');
 
-        // Preload obrazów menu dla natychmiastowego działania
-        menuPages.forEach(url => {
+        // Błyskawiczny preload wszystkich obrazów strony do pamięci podręcznej przeglądarki
+        const criticalAssets = [
+          '/images/hero.jpg',
+          '/images/danie-kwasnica.jpg',
+          '/images/danie-bitki.jpg',
+          '/images/danie-zurek.jpg',
+          '/images/danie-piers.jpg',
+          '/images/danie-burger.jpg',
+          '/images/danie-zeberka.jpg',
+          ...menuPages
+        ];
+
+        criticalAssets.forEach(url => {
           const img = new Image();
+          img.decoding = 'async';
           img.src = url;
         });
 
