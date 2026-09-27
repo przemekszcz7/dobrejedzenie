@@ -1,0 +1,6 @@
+{
+  "name": "Dobre Jedzenie — Cewice",
+  "description": "Restauracja z tradycyjną kuchnią kaszubską, catering, żywienie firm i imprezy okolicznościowe w Cewicach. Domowo, świeżo i sycąco.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
